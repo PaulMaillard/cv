@@ -6,52 +6,85 @@
 		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
 		<style>
 		.lbluebackground{
-		background-color:midnightblue; color:#fff; padding:10px 20px;
+		background-color:midnightblue; 
+		color:#fff; 
+		padding:10px 20px; 
+		border-bottom:3px solid black;
 		}
+
 		.dbluebackground{
-		background-color:#151B54; color:#fff; padding:10px 20px;
+		background-color:#151B54; 
+		color:#fff; 
+		padding:10px 20px; 
+		border-bottom:3px solid black;
 		}
+
 		.headfont{
 		font-family:roboto;
 		}
+
 		.textfont{
 		font-family:arial;
 		}
+
 		.bottomborder{
-		border-bottom:3px solid black; color:black; padding:0px 20px;
+		border-bottom:3px solid black; 
+		color:black; 
+		padding:0px 20px;
 		}
+
+		.slidedown{
+		position: relative; 
+		top: 425px;
+		}
+
+		.slideup{
+		position: relative; 
+		top: -205px;
+		}
+
+		h2 {
+		text-decoration: underline;
+		}
+
+
 		</style>
 	</head>
 
-	<body>
+	<body style="background-color:#000">
 		<header>
-			<h1 class="headfont bottomborder" style="background-color:midnightblue; color:#fff"> Développeur logiciel </h1>
-			<section class="textfont bottomborder"> <!-- Personal info -->
+			<h1 class="headfont bottomborder" style="background-color:#fff; color:#000; position:fixed; z-index: 999;"> Développeur logiciel </h1>
+			<section class="textfont bottomborder" style="text-align:right; color:white"> <!-- Personal info -->
 				<p>Nom : Maillard</p>
 				<p>Prénom : Paul </p>
 				<p>Adresse: 48 Rue Jean-Jacques Rousseau, 34400 Lunel </p>
 			</section>
 		</header>
 
-		<section class="lbluebackground"> <!-- Skills -->
-			<h2 class="headfont"> Compétences </h2>
+		<section class="dbluebackground slidedown"> <!-- Skills -->
+			<h2 class="headfont"> Compétences :</h2>
 			<ul class="textfont">
-			<li>Comp1</li>
-			<li>Comp2</li>
-			<li>Comp3</li>
+			<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+			<li>Praesent lobortis elit at velit iaculis ultrices.</li>
+			<li>Morbi ut sem vitae velit aliquet porttitor.</li>
+			<li>Pellentesque id lacus a tellus tempus blandit nec eu velit.</li>
+			<li>Aliquam at ex laoreet, luctus lorem in, elementum urna.</li>
+			<li>Proin ullamcorper velit sit amet ligula tristique, a sagittis massa laoreet.</li>
 			</ul>
 		</section>
 
-		<section class="dbluebackground"> <!-- Experiences --> 
-			<h2 class="headfont"> Expériences </h2>
-			<ul class="textfont">
-			<li>Exp1</li>
-			<li>Exp2</li>
-			<li>Exp3</li>
+		<section class="lbluebackground slideup"> <!-- Experiences --> 
+			<h2 class="headfont"> Expériences :</h2>
+			<h3 class="headfont"> 2007 - 2009 </h3>
+			<p class="textfont">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut dolor non diam viverra iaculis. Suspendisse quam ex, tincidunt ac facilisis eu, hendrerit vitae erat. Proin id fringilla turpis. Donec placerat dignissim consequat. Ut sed urna at mi tempor eleifend vel mollis odio. Donec sed orci ac lorem aliquet faucibus. Praesent vel ullamcorper lacus. Integer sit amet lorem nisi. Nulla facilisi. Phasellus rhoncus placerat nisl, vel vehicula magna. </p>
+			<h3 class="headfont"> 2009 - 2012 </h3>
+			<p class="textfont">Proin lectus nulla, euismod quis risus et, cursus suscipit nulla. Donec id turpis ornare, efficitur est sit amet, luctus erat. Proin ultricies pretium sapien, a sagittis quam porttitor sit amet. Quisque ut tempor sem. In posuere dapibus est eu imperdiet. Nam tincidunt ipsum erat, eget luctus est feugiat non. Suspendisse dignissim rhoncus interdum. Aliquam erat volutpat. Mauris ac leo facilisis, auctor metus eu, pellentesque justo. Aenean faucibus ornare elit, nec interdum risus. Donec pretium congue enim. Integer quis volutpat augue. Proin et volutpat orci. Aenean eget ullamcorper felis, ut cursus magna. Nam luctus est id velit viverra, eu vehicula augue convallis. Morbi a sollicitudin urna. </p>
+			<h3 class="headfont"> 2012 - 2015 </h3>
+			<p class="textfont"> Suspendisse dignissim nisi vel mattis blandit. Fusce aliquam hendrerit mi, eu mollis leo blandit nec. Integer non fermentum nunc. Aliquam enim odio, facilisis non maximus elementum, rhoncus non felis. Morbi in luctus neque, sit amet commodo ex. Quisque feugiat libero tortor, eu laoreet nisi ornare ut. Aliquam convallis augue augue, a gravida ligula volutpat et. </p>
 		</section>
 
 		<section class="lbluebackground"> <!-- Education -->
-			<h2 class="headfont"> Diplomes </h2>
+			<h2 class="headfont"> Diplomes :</h2>
 			<ul class="textfont">
 			<li>CAP Sérigraphie Industrielle</li>
 			<li>Bac Technologique Sciences et Technologies de Laboratoire</li>
@@ -59,7 +92,7 @@
 		</section>
 
 		<section class="dbluebackground"> <!--Hobbies --> 
-			<h2 class="headfont"> Loisirs </h2>
+			<h2 class="headfont"> Loisirs :</h2>
 			<p class="textfont">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac tortor et dolor mollis pretium. Etiam non diam vel nisl elementum dapibus vitae et purus. Nulla nibh sem, iaculis in lorem id, pretium sagittis odio. Aliquam et nisl lobortis, lacinia mauris nec, faucibus velit. Cras vestibulum ullamcorper neque, et vestibulum sapien euismod quis. Fusce varius diam felis, malesuada tincidunt lectus dictum efficitur. Phasellus id elit vel nibh semper ornare. Ut eu nunc in dolor pulvinar suscipit quis sed quam. Phasellus gravida, purus id pulvinar faucibus, diam dolor molestie orci, et accumsan odio elit ac magna. Ut eget accumsan nulla. Nulla facilisi. Cras varius dictum orci, in vestibulum odio. </p>
 		</section>
 	
