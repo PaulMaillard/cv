@@ -1,0 +1,62 @@
+
+		/*gives white text on a blue background*/
+		.lbluebackground {
+			background-color: midnightblue; 
+			color: #fff; 
+			padding: 10px 20px; 
+			border-bottom: 3px solid black;
+		}
+
+
+		/*gives white text on a darker blue background*/
+		.dbluebackground {
+			background-color: #151B54; 
+			color: #fff; 
+			padding: 10px 20px; 
+			border-bottom: 3px solid black;
+		}
+
+
+		/*text font*/
+		.textfont {
+			font-family: arial; sans-serif;
+		}
+
+
+		/*slides one of the categories down*/
+		.slidedown {
+			position: relative; 
+			top: 425px;
+		}
+
+
+		/*slides one of the categories up to replace the previous one*/
+		.slideup {
+			position: relative; 
+			top: -205px;
+		}
+
+			
+		/*headers and subheaders fonts*/
+		h1, h2, h3 {
+			font-family: roboto, sans-serif;
+		}
+
+
+		/*locks the header at the top of the page, ensures it's always in the foreground, with black text on a white background*/
+		h1 {
+			border-bottom: 3px solid; 
+			padding: 0px 20px;
+			background-color:#fff; 
+			color:#000; 
+			position:fixed; 
+			z-index: 999;"
+		}
+
+
+		/*underlines all subheaders*/
+		h2 {
+			text-decoration: underline;
+		}
+
+
