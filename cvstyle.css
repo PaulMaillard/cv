@@ -1,3 +1,9 @@
+		/*sets background color to black, adds padding on top to accomodate for the navbar*/		
+		body {
+			background-color: #000;
+			padding-top: 57px;
+
+		}
 
 		/*gives beige text on a green background*/
 		.dgreenbackground {
@@ -23,12 +29,16 @@
 		}
 
 
-		/* removes the bullets from the navbar, sets its background color*/
+		/* removes the bullets from the navbar, sets its background color, locks it at the top of the page*/
 		#navbar {
 			list-style-type: none;
 			background-color: #fff8b5;
 			padding: 0;
 			margin: 0;
+			position: fixed;
+			top: 0;
+			width: 100%;
+			border-bottom: 3px solid black;
 		}
 
 		/* sets color of the links from blue to black, ensures the links are organised in a line, removes the underline of the links*/
@@ -44,17 +54,23 @@
 
 		/*turns each link of the navbar white on a grey background on hover*/
 		#navbar a:hover {
-		    background-color: #555;
-		    color: white;
+			background-color: #555;
+			color: white;
+		}
+
+		#personalinfo {
+			text-align:right; 
+			color:#fff; 
+			right:0;"
 		}
 
 
 		/*links in the navebar redirect to invisible blocks far enough above each category for the relevent text to not end up below the floating title*/
 		a.anchor {
-		    display: block;
-		    position: relative;
-		    top: -145px;
-		    visibility: hidden;
+			display: block;
+			position: relative;
+			top: -145px;
+			visibility: hidden;
 		}
 
 			
