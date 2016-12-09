@@ -1,7 +1,7 @@
 
 		/*gives white text on a blue background*/
 		.lbluebackground {
-			background-color: midnightblue; 
+			background-color: #0a4650; 
 			color: #fff; 
 			padding: 10px 20px; 
 			border-bottom: 3px solid black;
@@ -10,7 +10,7 @@
 
 		/*gives white text on a darker blue background*/
 		.dbluebackground {
-			background-color: #151B54; 
+			background-color: #2c9e4b; 
 			color: #fff; 
 			padding: 10px 20px; 
 			border-bottom: 3px solid black;
@@ -23,17 +23,36 @@
 		}
 
 
-		/*slides one of the categories down*/
-		.slidedown {
-			position: relative; 
-			top: 425px;
+		/* removes the bullets from the navbar, sets its background color*/
+		#navbar {
+			list-style-type: none;
+			background-color: #fff8b5;
+			padding: 0;
+			margin: 0;
+			/*overflow: hidden;*/
+		}
+		/* sets color of the links from blue to black, ensures the styles apllied to the links applies to the full width of the navbar, removes the underline of the links*/
+		#navbar a {
+			display: inline-block;
+			color: #000;
+			text-align: center;
+			text-decoration: none;
+			padding: 14px 16px;
+			
 		}
 
 
-		/*slides one of the categories up to replace the previous one*/
-		.slideup {
-			position: relative; 
-			top: -205px;
+		#navbar a:hover {
+		    background-color: #555;
+		    color: white;
+		}
+
+		/*links in the sidebar redirect to invisible blocks far enough above each category for the relevent text to not end up below the floating title*/
+		a.anchor {
+		    display: block;
+		    position: relative;
+		    top: -145px;
+		    visibility: hidden;
 		}
 
 			
@@ -46,10 +65,11 @@
 		/*locks the header at the top of the page, ensures it's always in the foreground, with black text on a white background*/
 		h1 {
 			border-bottom: 3px solid; 
-			padding: 0px 20px;
-			background-color:#fff; 
+			padding: 30px 20px;
+			background-color:#fff8b5; 
 			color:#000; 
 			position:fixed; 
+			top: 43px;
 			z-index: 999;"
 		}
 
