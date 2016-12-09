@@ -1,6 +1,6 @@
 
-		/*gives white text on a blue background*/
-		.lbluebackground {
+		/*gives beige text on a green background*/
+		.dgreenbackground {
 			background-color: #0a4650; 
 			color: #fff; 
 			padding: 10px 20px; 
@@ -8,8 +8,8 @@
 		}
 
 
-		/*gives white text on a darker blue background*/
-		.dbluebackground {
+		/*gives beige text on a lighter green background*/
+		.lgreenbackground {
 			background-color: #2c9e4b; 
 			color: #fff; 
 			padding: 10px 20px; 
@@ -29,9 +29,9 @@
 			background-color: #fff8b5;
 			padding: 0;
 			margin: 0;
-			/*overflow: hidden;*/
 		}
-		/* sets color of the links from blue to black, ensures the styles apllied to the links applies to the full width of the navbar, removes the underline of the links*/
+
+		/* sets color of the links from blue to black, ensures the links are organised in a line, removes the underline of the links*/
 		#navbar a {
 			display: inline-block;
 			color: #000;
@@ -42,12 +42,14 @@
 		}
 
 
+		/*turns each link of the navbar white on a grey background on hover*/
 		#navbar a:hover {
 		    background-color: #555;
 		    color: white;
 		}
 
-		/*links in the sidebar redirect to invisible blocks far enough above each category for the relevent text to not end up below the floating title*/
+
+		/*links in the navebar redirect to invisible blocks far enough above each category for the relevent text to not end up below the floating title*/
 		a.anchor {
 		    display: block;
 		    position: relative;
@@ -62,7 +64,7 @@
 		}
 
 
-		/*locks the header at the top of the page, ensures it's always in the foreground, with black text on a white background*/
+		/*locks the header at the top of the page, ensures it's always in the foreground, with black text on a beige background*/
 		h1 {
 			border-bottom: 3px solid; 
 			padding: 30px 20px;
