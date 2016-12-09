@@ -41,7 +41,8 @@
 			border-bottom: 3px solid black;
 		}
 
-		/* sets color of the links from blue to black, ensures the links are organised in a line, removes the underline of the links*/
+		/* sets color of the links from blue to black, ensures the links are organised in a line, removes the underline
+ of the links*/
 		#navbar a {
 			display: inline-block;
 			color: #000;
@@ -58,14 +59,15 @@
 			color: white;
 		}
 
+		/*personal info text align to the right, white color*/
 		#personalinfo {
 			text-align:right; 
 			color:#fff; 
-			right:0;"
 		}
 
 
-		/*links in the navebar redirect to invisible blocks far enough above each category for the relevent text to not end up below the floating title*/
+		/*links in the navebar redirect to invisible blocks far enough above each category for the relevent text to not 
+end up below the floating title (thx stackoverflow)*/
 		a.anchor {
 			display: block;
 			position: relative;
@@ -80,7 +82,8 @@
 		}
 
 
-		/*locks the header at the top of the page, ensures it's always in the foreground, with black text on a beige background*/
+		/*locks the header at the top of the page, ensures it's always in the foreground, with black text on a beige 
+background*/
 		h1 {
 			border-bottom: 3px solid; 
 			padding: 30px 20px;
