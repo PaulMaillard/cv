@@ -1,0 +1,46 @@
+/**************Import**************/
+nav{
+  background-color:#fff8b5;
+  color: black !important;
+}
+
+nav > ul > li > a {
+  color: black;
+}
+.navTitre > nav {
+
+  color: black !important;
+    background-color: rgba(255, 0, 0, 0) !important;
+    box-shadow : none;
+   
+}
+/**************Media nav **************/
+
+@media screen and (max-width: 600px) {
+  nav{
+  display: none;
+  visibility: none;
+  }
+  .titre{
+    position: relative;
+    bottom: 30px;
+    display: block;
+    z-index: 0 !important;
+  }
+  .navbar-fixed nav {
+   position: relative;
+}
+}
+
+nav .brand-logo {
+  background-color: #fff;
+    color: #444;
+    padding: 8px;
+  }
+
+
+  .side-nav .userView .circle {
+    height: 50px !important;
+    width: 50px !important; 
+}
+
